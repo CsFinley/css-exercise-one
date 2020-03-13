@@ -23,7 +23,7 @@ h1 {
 
 .example, h3 {
   padding-top: 30px;
-  text-align: center;
+  text-align: center; /* Some lines were missing a semicolon to close it*/
 }
 
 h3 {
@@ -35,8 +35,8 @@ h3 {
   height: 100px;
   margin: 10px 0;
   width: 100%;
-}
+} /* A number of css lines were missing their closing bracket*/
 
-.feature {
+.feature { /* Added .feature class to change background for index.html divs*/
   background-color: blue;
 }
